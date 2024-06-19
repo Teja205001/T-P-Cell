@@ -1,0 +1,88 @@
+*{
+   font-family: "Montserrat", sans-serif;
+    
+}
+.header{
+    background-image: url("./photos/bg_imgPlace.jpg");
+    background-size: cover;
+    height:90px;
+    width:100%;
+    color:aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+
+}
+.logo{
+    height: 60px;
+    width:65px;
+    border-radius:50%;
+    margin: 1rem;
+    
+}
+#overview{
+    display: inline;
+}
+.recruit{
+    /*background-color:#19184a; */
+    text-align: center;
+    color:aliceblue;
+    margin: auto;
+    height:350px;
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    background-image: url("./photos/bg_imgPlace.jpg");
+    background-size: cover;
+}
+#aboutNce{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.contact{
+    text-align: center;
+}
+.card{
+    margin: 2rem;
+}
+.card-footer a:hover{
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 15px  35px ; 
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+.nce_img{
+    height:600px;
+    width:800px;
+    margin:10px;
+}
+.about{
+    margin: 40px;
+    font-weight: 500;
+    font-style: italic;
+}
+.body{
+    padding:10px;
+    text-align: center;
+    display: flex;
+}
